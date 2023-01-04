@@ -6,7 +6,7 @@ def display_h(hashTable):
        for j in hashTable[i]:
         print("-->", end = " ")
         print(j, end = " ")
-    print()
+        print()
 # Creating Hash table as a nested list.
 HashTable = [[] for _ in range(10)]
 # Hashing Function to return key for every value.
